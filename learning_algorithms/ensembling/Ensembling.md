@@ -2,7 +2,7 @@
 
 An Ensemble method is a technique that **combines the predictions from multiple machine learning algorithms** together to make more accurate predictions than any individual model. A model comprised of many models is called an **Ensemble model**.
 
-<img src='../assets/ensembling.png'/>
+<img src='../../assets/ensembling.png'/>
 
 # Types of Ensembling Learning
 
