@@ -24,6 +24,10 @@ The convolution layer itself contains 3 different kinds of layers i.e. the convo
 
 ### Convolution Layer
 
+<img src='../../assets/cnn_conv_layer_1.png' />
+
+<img src='../../assets/cnn_conv_layer.gif' />
+
 Convolution is the first layer to extract features from an input image. Convolution preserves the relationship between pixels by learning image features. 
 
 It has the filter as the weights which when applied on the image outputs another set of matrix. This filter matrix is also known as the kernel.
@@ -32,6 +36,16 @@ It takes 2 parameters:
 
 - Stride: Stride is the number of pixels shifts over the input matrix.
 - Padding: It is the number of pixels we need to add(usually of value =  0) to input matrix so that filters can be applied on it easily
+
+
+
+Stride=1 animation
+
+<img src='../../assets/cnn_conv_stride2.gif' />
+
+Stride=2 animation
+
+<img src='../../assets/cnn_conv_stride1.gif' />
 
 Padding can be of 3 types:
 
@@ -81,6 +95,8 @@ __Output__: A Matrix $A$ of same dimension as input $(batch\_size,w,h,d)$
 
 ### Pooling Layer
 
+<img src='../../assets/cnn_pool_1.gif' />
+
 Pooling layers section is used to reduce the size of the image when the images are too large. The process of applying a pooling layer is also called sub-sampling or down-sampling. 
 
 It has 3 parameters:
@@ -91,6 +107,8 @@ It has 3 parameters:
   - Max
   - Sum
   - Avg
+
+<img src='../../assets/cnn_pool_fn.png' />
 
 We can say that convolution layer is a special type of pooling layer which has 1 extra attribute i.e. padding and the function applied is multiplication.
 
