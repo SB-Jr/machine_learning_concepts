@@ -11,14 +11,14 @@ This section covers the general supervised learning algorithms.
 </colgroup>
 <thead>
   <tr>
-    <th class="tg-c3ow">Sr. No. </th>
-    <th class="tg-0pky">Title</th>
+    <th width=20%>Sr. No. </th>
+    <th width=80%>Title</th>
   </tr>
 </thead>
 <tbody>
   <tr>
-    <td class="tg-c3ow"><b>1</b></td>
-    <td class="tg-0pky"><b>Learning Algorithms</b>
+    <td><b>1</b></td>
+    <td><b>Learning Algorithms</b>
       <ul>
         <li>Decision Tree</li>
         <li>Regression Tree</li>
@@ -28,24 +28,24 @@ This section covers the general supervised learning algorithms.
     </td>
   </tr>
   <tr>
-    <td class="tg-c3ow"><b>2</b></td>
-    <td class="tg-0pky"><b>Cross Validation Techniques</b>
+    <td><b>2</b></td>
+    <td><b>Cross Validation Techniques</b>
       <ul>
         <li>K Fold</li>
       </ul>
     </td>
   </tr>
   <tr>
-    <td class="tg-c3ow"><b>3</b></td>
-    <td class="tg-0pky"><b>Hyper Parameter Tuning</b>
+    <td><b>3</b></td>
+    <td><b>Hyper Parameter Tuning</b>
       <ul>
         <li>Grid Search</li>
       </ul>
     </td>
   </tr>
   <tr>
-    <td class="tg-c3ow"><b>4</b></td>
-    <td class="tg-0pky"><b>Feature Reduction Techniques</b>
+    <td><b>4</b></td>
+    <td><b>Feature Reduction Techniques</b>
       <ul>
         <li>t-SNE</li>
         <li>PCA</li>

@@ -4,7 +4,7 @@ This folder contains Supervised learning related notes.
 
 Note: 
 
-- All topics are not covered here.
+- All topics are not covered
 - Github does not parse Latex Formulaes so you will need to view this file in a Latex parsable environment
 
 
@@ -16,8 +16,8 @@ Note:
 </colgroup>
 <thead>
   <tr>
-    <th><center>Sr. No.</center></th>
-    <th>Title</th>
+    <th width=20%><center>Sr. No.</center></th>
+    <th width=80%>Title</th>
   </tr>
 </thead>
 <tbody>

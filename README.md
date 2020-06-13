@@ -16,8 +16,8 @@ There maybe/may not be a video/picture representation for better explanation.
 </colgroup>
 <thead>
   <tr>
-    <th><center>Sr. No.</center></th>
-    <th>Title</th>
+    <th width=20%><center>Sr. No.</center></th>
+    <th width=80%>Title</th>
   </tr>
 </thead>
 <tbody>
