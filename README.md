@@ -7,6 +7,12 @@ There maybe/may not be a video/picture representation for better explanation.
 
 
 
+<style>
+  table {
+    width:100%
+  }
+</style>
+
 
 
 # Table of Content
