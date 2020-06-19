@@ -243,6 +243,8 @@ As we can see here, for any covariance matrix it will always have 2 eigen vector
 -  1^st^, which will be the maximum vector lying in the direction of data spread
 - 2^nd^ , which is the least and is in the direction $\perp$ to the 1^st^ eigen vector.
 
+And we can see that the **eigen vectors of the covariance matrix properly identify the direction on which the data is distributed. This property of the covariance matix helps us in finding the projections of the spread of the data points.**
+
 ### Covariance matrix as a transformation
 
 Lets say we have a data matrix $D$ then we can apply some transformation to $D$ and transform the data in it. Lets say the trasnformed matrix is $D'$ then trasnformation is given by $D' = TD$ where $T$ is the transformation matrix.
@@ -318,7 +320,7 @@ So when we use this covariance matrix on our data matrix $D$ we get:
 
 <img src='../assets/cov_6.png' />
 
-Thus we can conclude here that covariance matrix is basically a transformation of a gaussian data which is evenly distrbuted if an $I$ identical matrix is it’s covariance matrix. As soon as we change the covariance matrix or apply the covariance matrix as a transformation we get our final data set.
+Thus we can conclude here that **covariance matrix is basically a transformation of a gaussian data which is evenly distrbuted if an $I$ identical matrix is it’s covariance matrix.** As soon as we change the covariance matrix or apply the covariance matrix as a transformation we get our final data set.
 
 So when we are given a dataset which doesnt resemble a gaussian data set, we can represent it in terms of a transformation applied, and this transformation can be calculated by finding the covariance matrix.
 
