@@ -1,12 +1,5 @@
 # CNN Roadmap
 
-## Image Classification
-
-- [x] Binary B/W Image Classification
-- [x] Multi-label B/W Image Classification
-- [x] Binary RGB Image Classification
-- [x] Multi-label RGB Image Classification
-
 
 
 ## Tweaking Networks
@@ -32,6 +25,64 @@
 - [ ] Residual Networks
 - [ ] Dense Networks
 - [x] Transfer Learning
+
+
+
+## Applications
+
+- [ ] Image
+
+  - [x] Image Classification
+
+    - [x] B/W binary
+    - [x] B/W multi-label
+    - [x] RGB binary
+    - [x] RGB multi-label
+
+  - [ ] Face Recognition
+
+  - [ ] Object Detection
+
+  - [ ] Object Bounding Box
+
+  - [ ] Pixel Mapping
+
+  - [ ] Image Transformation
+
+    - [ ] B/W image to Color
+    - [ ] Low resolution Image to Higher Resolution Image
+
+  - [ ] Canvas Hand-drawn characher recognition
+
+  - [ ] Region identification and finding similar pictures from data-set (Google Region Identification Chanllenge)
+
+    
+
+- [ ] Video
+
+  - [ ] Video  Classification
+
+  - [ ] Real time object detection in video
+
+  - [ ] Face Recognition in real time
+
+  - [ ] Pixel Mapping in videos in real time
+
+  - [ ] Video transformation
+
+    - [ ] Video transformation from low fps to higher fps
+    - [ ] Low resolution video transformation to higher resolution video transformation
+
+  - [ ] Body posture detection
+
+    
+
+- [ ] Other Data type Application
+
+  - [ ] CNN on Sudoku puzzle
+  - [ ] CNN on text data
+
+
 
 
 
