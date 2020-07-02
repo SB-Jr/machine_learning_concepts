@@ -21,16 +21,43 @@ Note:
   </tr>
 </thead>
 <tbody>
-  <tr>
-    <td><center><b>1</b></center></td>
-    <td><b>General Supervised Learning</b>
+	<tr>
+    <td><b>1</b></td>
+    <td><b>Learning Algorithms</b>
       <ul>
-        <li>Learning Algorithms</li>
-        <li>Cross Validation Techniques</li>
-        <li>Hyper-Parameter Tuning</li>
-        <li>Feature Reduction Techniques</li>
+        <li>Decision Tree</li>
+        <li>Regression Tree</li>
+        <li>Ensembling</li>
+        <li>Random Forest Regression/Classification</li>
       </ul>
-      <br></td>
+    </td>
+  </tr>
+  <tr>
+    <td><b>2</b></td>
+    <td><b>Cross Validation Techniques</b>
+      <ul>
+        <li>K Fold</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td><b>3</b></td>
+    <td><b>Hyper Parameter Tuning</b>
+      <ul>
+        <li>Grid Search</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td><b>4</b></td>
+    <td><b>Feature Reduction Techniques</b>
+      <ul>
+        <li>t-SNE</li>
+        <li>PCA</li>
+        <li>Independent Component Analysis</li>
+        <li>Random Forest Regressor</li>
+      </ul>
+    </td>
   </tr>
   <tr>
     <td><center><b>2</b></center></td>
