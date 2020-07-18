@@ -6,19 +6,20 @@ Orthogonalization is a system design property that ensures that modification of 
 
 ### Bad result on Training set
 
-- Bigger Network in case of deep learning
-- Different Optimization algorithm
+* Bigger Network in case of deep learning
+* Different Optimization algorithm
 
 ### Good on Training Set but not on Validation Set
 
-- Regularization
-- Bigger Training set
+* Regularization
+* Bigger Training set
 
 ### Good on Validation set but not on Test set
 
-- Bigger Validation set
-- Changing cost function
+* Bigger Validation set
+* Changing cost function
 
 ### Bad result on Real world test
 
-- Changing cost function
+* Changing cost function
+

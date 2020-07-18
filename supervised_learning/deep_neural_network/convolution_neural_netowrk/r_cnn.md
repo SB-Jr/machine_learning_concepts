@@ -8,7 +8,7 @@ To resolve this issue, the region proposal algorithm was built.
 
 ## Region Proposal
 
-There are plenty region proposal algorithms which work without training them. 
+There are plenty region proposal algorithms which work without training them.
 
 The R-CNN used the selecting search method.
 
@@ -16,10 +16,9 @@ The R-CNN used the selecting search method.
 
 This algorithm is used to get 2000 differet regions.
 
-
-
 ## CNN
 
-These proposed regions are then fed to a CNN to represent the images in a smaller dimension. For this **AlexNet** was used. 
+These proposed regions are then fed to a CNN to represent the images in a smaller dimension. For this **AlexNet** was used.
 
 This issue here is that AlexNet is a pre-trained model
+
