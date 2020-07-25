@@ -19,9 +19,9 @@ best_estimator = my_estimator({necessary_params},
                              c=best_params['c'],
                              epsilon=best_params['epsilon'],
                              gamma=best_params['gamma'])
+
 ```
 
-Here my\_estimator is the model whose hyper parameter we are trying to tune. In the param\_grid we pass the hyper-parameter and the range of values in which which we have to find the perfect combination for our estimator. Here we passed `c`, `gamma`, `epsilon` as an example for the estimator we are using.
+Here my_estimator is the model whose hyper parameter we are trying to tune. In the param_grid we pass the hyper-parameter and the range of values in which which we have to find the perfect combination for our estimator. Here we passed `c`, `gamma`, `epsilon` as an example for the estimator we are using.
 
 With the tuning a cross validation process is also performed in order to determine the hyper parameter value set which provides the best accuracy levels.
-

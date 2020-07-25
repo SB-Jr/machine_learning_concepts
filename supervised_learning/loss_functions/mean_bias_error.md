@@ -2,7 +2,9 @@
 
 ## Mathematical Formula
 
-$$\LARGE MBE = \frac{\sum_{i=1}^n (y_i - \hat{y}_i)}{n}$$
+$$\LARGE MBE = \frac{\sum_{i=1}^n (y_i - \hat{y}_i)}{n} $$
+
+
 
 ## Explanation
 

@@ -6,7 +6,7 @@ Here both the process and the resultant function is known as convolution.
 
 ## Mathematical definition
 
-Convolution of $f$ and $g$ is written as $f \ast g$. The symbol is knows as asterisk and $\ast$ is different from ‘’\*“.
+Convolution of $f$ and $g$ is written as $f \ast g$. The symbol is knows as asterisk and $\ast$ is different from ‘’*“.
 
 $$
 \Large
@@ -15,4 +15,3 @@ $$
  & \triangleq \int_{-\infin}^{\infin} f(t - \tau)g(\tau)d\tau
  \end{align}
 $$
-

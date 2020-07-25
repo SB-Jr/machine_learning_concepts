@@ -1,3 +1,5 @@
+
+
 # Machine Learning Strategy
 
 ## Orthogonalization
@@ -24,7 +26,7 @@ An optimizing metric will usually be the same as your evaluation metric, and you
 
 Validation set is often also referred as the Development set.
 
-The training and development \(or holdout\) sets are used to train a model. The training set is usually used to fit the model to the data, and the development set is used to make predictions and tweak the model.
+The training and development (or holdout) sets are used to train a model. The training set is usually used to fit the model to the data, and the development set is used to make predictions and tweak the model.
 
 Then, the test set is an example of real-life data on which you test the algorithm to see how it would perform.
 
@@ -40,13 +42,13 @@ However, in the case where you have millions of instances, a more appropriate sp
 
 In the case that your model is overfitting, you mus reduce variance by:
 
-* Collecting more data
-* [Regularization](https://towardsdatascience.com/how-to-improve-a-neural-network-with-regularization-8a18ecda9fe3) \(L2, dropout, data augmentation\)
-* Change the model
+- Collecting more data
+- [Regularization](https://towardsdatascience.com/how-to-improve-a-neural-network-with-regularization-8a18ecda9fe3) (L2, dropout, data augmentation)
+- Change the model
 
 In the case that your model is underfitting the data, you must then reduce bias by:
 
-* Training a bigger or more complex model
-* Use a better optimization algorithm or train for a longer time
-* Change the model
+- Training a bigger or more complex model
+- Use a better optimization algorithm or train for a longer time
+- Change the model
 
