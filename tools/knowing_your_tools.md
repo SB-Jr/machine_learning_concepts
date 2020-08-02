@@ -1,5 +1,20 @@
 # Intro To ML Tools
 
+<!-- toc -->
+
+* [Tool Groups](#tool-groups)
+* [Tools](#tools)
+  + [Local and Explorative](#local-and-explorative)
+  + [Explorative and Cloud](#explorative-and-cloud)
+  + [Production Use and Cloud](#production-use-and-cloud)
+* [Other Important Tools](#other-important-tools)
+  - [nbdime](#nbdime)
+    + [nbstripout](#nbstripout)
+    + [nbconvert](#nbconvert)
+    - [Reference](#reference)
+
+<!-- tocstop -->
+
 There are multiple tools available for ML but they vary from the normal software development tools in many ways. These tools can be devided into 3 groups:
 
 - Explorative and Local
@@ -14,8 +29,6 @@ The tools can be either useful for experimentation or for production and it can 
 - **Local Tools**: These tools are meant to run in a closed local environment like a single laptop/desktop or single instance in a cloud. These are mostly used for easy prototyping and experimentation of different implementations. They provide easy interface for testing out scenarios. But they like the explorative tools lack the ability to scale and judiciousl use the system resources. These are often not used in production.
 - **Cloud Tools**: These can be either explorative or production ready tools. These tools have the ability to run on a distributed cloud architecture and can judiciusly use sytem resources and allocate and releive resources according to the need.
 - **Production Tools**: These tools are mostly suited for production and real life scenarios. They can be easily scaled. Often they have the ability to allocate and relieve resources as per need. But they lack the ability to tweek or tinker if small changes are needed to be made.
-
-
 
 ## Tools
 
@@ -54,11 +67,7 @@ These usually provide powerful hardware(GPU, TPU, etc) so as to work on extensiv
 - **voila**: for a Jupyter-native experience of building web-apps without the knowledge of frontend frameworks.
 - **Streamlit**: can be used to create web-apps in-tandem with `nbconvert`.
 
-
-
 <img title="" src="assets/tools.png" alt="">
-
-
 
 ## Other Important Tools
 
@@ -78,6 +87,6 @@ It is useful for converting the .ipynb extension (the file extension used by not
 
 - magics
 
+# Reference
 
-
-
+[1]: https://ljvmiranda921.github.io/notebook/2020/03/06/jupyter-notebooks-in-2020/ [How to use Jupyter Notebooks in 2020]
