@@ -11,8 +11,6 @@
 - *Expected value*:**Long-run average** **value** of repetitions of the same experiment.
 - *Unbiased estimator*: The unbiased estimator’s **expected value** is equal to the true value of the parameter being estimated. In other words, the distributions of unbiased estimators are centred at the correct value. 
 
-
-
 ## Effect of using a sample space
 
 Given a large Gaussian population distribution with an **unknown** population mean **μ** and population variance **σ²**, we draw **n** i.i.d. samples from the population, such that for each sample **x_i** from a set **X**.
@@ -23,13 +21,14 @@ Point to note here is that
 - We dont know the actual size of the population
 - We are just considering ‘n’ samples of this population which is considered to be large
 
+
+
 $$
-\large
-\begin{align}
-x_i \sim \mathcal{N}(\mu, \sigma^2);\ \ & \forall x_i \in \{x_1,,x_2,.........x_n\}\\
+\begin{aligned}
+x_i \sim \mathcal{N}(\mu, \sigma^2);&\space \forall x_i \in {x_1,x_2,....,x_n}\\
 \mu = E[x_i]\\
 \sigma^2 = E[(x_i - \mu)^2] &= E[x_i^2] - \mu^2
-\end{align}
+\end{aligned}
 $$
 
 
@@ -44,11 +43,12 @@ Let’s put a hat (***^\***) on ***μ\*** and ***σ²\*** and call them ‘pseud
 
 $$
 \large
-\begin{align}
+\begin{aligned}
 \hat \mu & = \frac{1}{n}\sum_{j=1}^n x_j \\
 \hat \sigma^2 & = \frac{1}{n}\sum_{j=1}^n(x_j - \hat\mu)^2
-\end{align}
+\end{aligned}
 $$
+
 So basically, the seudo mean is the mean of sample space. And as we can’t achieve a more acurate estimate of the mean of the actual population so we call this the **unbiased population mean estimator**.
 
 So as we cant get the real mean $\mu$ we are substituting it with the $\hat\mu$.
@@ -67,23 +67,12 @@ So we can see through this example that a bias towards the data was introduced b
 
 So we can conclude here that the pseudo values always underestimate the true values.
 
-
-
 ## Bessel’s Correction
 
 This states that the true mean is always $\large \frac{n}{n-1}$ times the pseudo mean.
-
-
-
-
 
 # Reference
 
 https://towardsdatascience.com/why-sample-variance-is-divided-by-n-1-89821b83ef6d
 
-
-
-
-
 ------
-
