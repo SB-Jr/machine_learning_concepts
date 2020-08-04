@@ -21,8 +21,6 @@ Point to note here is that
 - We dont know the actual size of the population
 - We are just considering ‘n’ samples of this population which is considered to be large
 
-
-
 $$
 \begin{aligned}
 x_i \sim \mathcal{N}(\mu, \sigma^2);&\space \forall x_i \in {x_1,x_2,....,x_n}\\
@@ -30,8 +28,6 @@ x_i \sim \mathcal{N}(\mu, \sigma^2);&\space \forall x_i \in {x_1,x_2,....,x_n}\\
 \sigma^2 = E[(x_i - \mu)^2] &= E[x_i^2] - \mu^2
 \end{aligned}
 $$
-
-
 
 One property to note: For instance, set (1,2,3,4,5) has mean 3 and variance 2. By squaring every element, we get (1,4,9,16,25) with mean 11=3²+2. 
 
